@@ -17,8 +17,6 @@ def solve_cubic_equation(a, b, c, d):
     root2 = (-1 / (3 * a)) * (u1 * (b + C) + u2 * delta1 / C)
     root3 = (-1 / (3 * a)) * (u2 * (b + C) + u1 * delta1 / C)
 
-    return root1, root2, root3
-
 # Exemple d'équation cubique : x^3 - 6x^2 + 11x - 6 = 0
 a = 1
 b = -6
@@ -27,4 +25,4 @@ d = -6
 
 solutions = solve_cubic_equation(a, b, c, d)
 
-print("Solutions:", solutions)
+print("Solutions:")
